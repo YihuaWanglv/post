@@ -50,7 +50,16 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
     - $ git fetch origin    //取得远程更新，这里可以看做是准备要取了
     - $ git merge origin/master  //把更新的内容合并到本地分支/master
 
-5. gitignore
+5. 添加和提交
+    - git add *
+    - git commit -m "代码提交信息"
+    - git push origin master
+    - 输入用户名密码
+    - 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：
+    - git remote add origin <server>
 6. gitignore
-7. 
+7. gitignore
+8. gitignore
+9. gitignore
+10. 
 
