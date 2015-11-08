@@ -58,7 +58,10 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
     - 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：
     - git remote add origin <server>
 6. 重装系统后，git项目如何恢复？
-    - 
+    - 先告诉git全局配置你是谁，输入你的邮箱和名称
+    - git config --global user.email "you@example.com"
+    - git config --global user.name "Your Name"
+    - 然后该干嘛干嘛
 7. gitignore
 8. gitignore
 9. gitignore
